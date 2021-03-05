@@ -2,6 +2,7 @@ package com.hilti.ta.steps;
 
 import com.hilti.ta.pages.Homepage;
 import com.hilti.ta.pages.components.ConsentsComponent;
+import com.hilti.ta.services.BannersService;
 import com.hilti.ta.services.BrowserService;
 import com.hilti.ta.services.CookieService;
 import com.hilti.ta.utils.Country;

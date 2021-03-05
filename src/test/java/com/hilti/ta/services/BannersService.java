@@ -2,6 +2,8 @@ package com.hilti.ta.services;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hilti.ta.utils.BannerData;
+import com.hilti.ta.utils.Country;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -14,7 +16,7 @@ import java.util.List;
  * Banners service responsible for retrieving legal, marketing banners appearing for given country.
  */
 
-public class BannerService {
+public class BannersService {
 
     private static final String BANNERS_URL_PATTERN = "http://hilti-prod.adobecqms.net/bin/hilti/servlets/getBannersForLocale.json?locale=%s";
 

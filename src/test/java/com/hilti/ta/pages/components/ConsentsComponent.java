@@ -2,6 +2,7 @@ package com.hilti.ta.pages.components;
 
 
 import com.hilti.ta.pages.PageObject;
+import com.hilti.ta.utils.WebDriverFactory;
 import org.openqa.selenium.By;
 
 /**
